@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./image/Cataleya_Fabicon.png">
+
+    <title>Distribuidora Cataleya</title>
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-3" id="divLogo">
+                <img src="./image/Cataleya_Transparente.png" alt="Logo Distribuidora Cataleya">
+            </div>
+            <div class="col-2" id="divEspacio1"></div>
+            <div class="col" id="divTitulos">
+                <h1>DISTRIBUIDORA CATALEYA</h1>
+                <h3>Todo para embellecedores de personas</h3>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary m-4">
+                
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#rubros">Nuestros Rubros</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#QuienesSomos">Quienes Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#Contactenos">Contáctenos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+   <main>
+    <!--section class="container" id="Carrusel"-->
+      <div
+        id="carouselExample"
+        class="carousel slide w-100 h-50 ms-4 carousel-dark container"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block text-secondary">
+              <p class="fs-1">Lo que necesita el Barbero</p>
+            </div>
+            <img
+              src="./image/Barberia.avif"
+              class="d-block w-100"
+              alt="Barbería"
+            >
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block text-secondary">
+              <p class="fs-1">Todo para la peluquería femenina</p>
+            </div>
+            <img
+              src="./image/Peluqueria_femenina.avif"
+              class="d-block w-100"
+              alt="Peluquería Femenina"
+            >
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/Maquillaje.avif"
+              class="d-block w-100"
+              alt="Maquillaje"
+            >
+            <div class="carousel-caption d-none d-md-block text-secondary">
+              <p class="fs-1">Los mejores insumos para Maquillaje Profesional</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/Pedicuria.avif"
+              class="d-block w-100"
+              alt="Pedicuría"
+            >
+            <div class="carousel-caption d-none d-md-block text-secondary">
+              <p class="fs-1">Insumos para Pedicuría y belleza de pies</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/Pestanias.jpg"
+              class="d-block w-100"
+              alt="Pestañas"
+            >
+            <div class="carousel-caption d-none d-md-block text-secondary">
+              <p class="fs-1">Insumos para colocación de Pestañas y perfilado de cejas</p>
+            </div>
+          </div>        
+          <div class="carousel-item">
+            <img
+              src="./image/Manicuria.jpg"
+              class="d-block w-100"
+              alt="Manicuría"
+            >
+            <div class="carousel-caption d-none d-md-block ">
+              <p class="fs-1">Insumos para Manicuría y uñas esculpidas</p>
+            </div>
+          </div>        
+          <div class="carousel-item">
+            <img
+              src="./image/Dermatologia.jpg"
+              class="d-block w-100"
+              alt="Dermatología"
+            >
+            <div class="carousel-caption d-none d-md-block ">
+              <p class="fs-1">Insumos para limpiesa fasial y cuidado de la piel</p>
+            </div>
+          </div>          
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!--h2 class="position-absolute top-0 w-100 text-center">
+          Nuestros Productos
+        </h2-->
+      </div>
+      <!-- fin carrousel -->
+    <!--/section-->
+    <section id="rubros" class="container m-4">
+        <div class="row" id="divTitulosRubros">
+            <img src="./image/Cataleya_Transparente.png" alt="log" class="col-1">
+            <h2 class="col">Nuestros Rubros</h2>
+        </div>
+        <div class="row">
+            <div class="card" id="Barberia">
+                <img src="./image/Barberia.avif" class="card-img-top" alt="Barbería">
+                    <div class="card-body">
+                        <h5 class="card-title">Barbería</h5>
+                        <p class="card-text"><a href="#">Tenemos las herramientas y los insumos que todo barbero necesita</a></p>
+                    </div>
+            </div>            
+            <div class="card"  id="Peluqueria_femenina">
+                <img src="./image/Peluqueria_femenina.avif" class="card-img-top" alt="Peluquería Femenina">
+                    <div class="card-body">
+                        <h5 class="card-title">Peluquería Femenina</h5>
+                        <p class="card-text"><a href="#">Nuestras tinturas y tratamientos para el cabello son de la más alta calidad</a></p>
+                    </div>
+            </div>   
+            <div class="card" id="Maquillaje">
+                <img src="./image/Maquillaje.avif" class="card-img-top" alt="Maquillaje">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquillaje</h5>
+                        <p class="card-text"><a href="#">Todos los utensillos e insumos que requiere un maquillador profesional</a></p>
+                    </div>
+            </div>            
+            <div class="card" id="Pedicuria">
+                <img src="./image/Pedicuria.avif" class="card-img-top" alt="Pedicuría y Belleza de pies">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedicuría y belleza de pies</h5>
+                        <p class="card-text"><a href="#">Todas las herramientas e insumos que se requieren para el tratamiento de las afecciones de los pies y su embellecimiento</a></p>
+                    </div>
+            </div>            
+            <div class="card" id="CejasPestanias">
+                <img src="./image/Pestanias.jpg" class="card-img-top" alt="Perfilado de Cejas y belleza de pestañas">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfilado de Cejas y tratamiento de pestañas</h5>
+                        <p class="card-text"><a href="#">Todos los insumos y utensillos necesarios para el embellecimiento de pestañas y cejas</a></p>
+                    </div>
+            </div>            
+            <div class="card" id="Manicuria">
+                <img src="./image/Manicuria.jpg" class="card-img-top" alt="Manicuría y Uñas Esculpidas">
+                    <div class="card-body">
+                        <h5 class="card-title">Manicuría y Uñas Esculpidas</h5>
+                        <p class="card-text"><a href="#">Todos los insumos y utensillos necesarios para Manicuría y esculpido y belleza de uñas</a></p>
+                    </div>
+            </div>            
+             <div class="card" id="Dermatologia">
+                <img src="./image/Dermatologia.jpg" class="card-img-top" alt="Limpiesa fasial y cuidado de la piel">
+                    <div class="card-body">
+                        <h5 class="card-title">Limpiesa fasial y cuidado de la piel</h5>
+                        <p class="card-text"><a href="#">Todos los insumos y utensillos necesarios para limpiesa fasial y cuidado de la piel</a></p>
+                    </div>
+            </div>            
+             <div class="card" id="SalaEspera">
+                <img src="./image/sala_espera.avif" class="card-img-top" alt="Limpiesa fasial y cuidado de la piel">
+                    <div class="card-body">
+                        <h5 class="card-title">Que tus clientes disfruten la espera</h5>
+                        <p class="card-text"><a href="#">Todos los insumos para que tus clientes disfruten mientras esperan que los atiendas</a></p>                        
+                    </div>
+            </div>            
+                   
+        </div>
+    </section>
+    <section id="QuienesSomos" class="container m-4">
+        <div class="row" id="divTituloQSomos">
+            <img src="./image/Cataleya_Transparente.png" alt="log" class="col-1">            
+            <h2 class="col">Quienes somos</h2>
+        </div>
+        <div class="row" id="divDescQSomos">
+            <p>Somos una empresa de La Pampa - Argentina, naciendo como Distribuidora, pero compuesta por profesionales con una ámplia experiencia en cada uno de los rubros que manejamos</p>
+            <p>Conocemos a la perfección cada uno de los productos que distribuimos y podemos dar fe de la alta calidad de cada uno de ellos, porque con ellos trabajamos cotidianamente y los seleccionamos teniendo en cuenta el resultado en nuestros propios trabajos </p>
+        </div>
+    </section>
+   </main> 
+   <footer>
+        <section class="container" id="Contactenos">
+            <div class="row" id="divTitulosContactenos">
+                <img src="./image/Cataleya_Transparente.png" alt="log" class="col-1">
+                <h2 class="col">Contáctenos</h2>
+            </div>
+            <div class="row">
+                <div class="dropdown col">
+                    <a
+                    class="btn btn-secondary dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >
+                    Nuestras vías de comunicación
+                    </a>
+
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">WhatsApp +54-2954-469560</a></li>
+                    <li><a class="dropdown-item" href="#">e-mail: cataleya@gmail.com</a></li>
+                    <li><a class="dropdown-item" href="#">Instagram #cataleya_ok</a></li>
+                    </ul>
+                </div>
+                <div class="col">Sitio de propiedad de Distribuidora Cataleya</div>
+            </div>
+        </section>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
