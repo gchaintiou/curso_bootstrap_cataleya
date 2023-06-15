@@ -10,3 +10,16 @@
 .card{
     width: 15rem; 
 }
+header{
+   /* background-color: blue; */
+   background-image: "./image/fondo.png";  
+}
+
+h1{
+    font-family: 'Hurricane', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Hurricane', cursive;
+    font-size: 50px;
+}

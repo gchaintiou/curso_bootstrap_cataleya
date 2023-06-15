@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/png" href="./image/Cataleya_Fabicon.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita&family=Hurricane&display=swap" rel="stylesheet">
+
+    <!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+    <!-- font -->
+
     <title>Distribuidora Cataleya</title>
 </head>
 <body>
@@ -18,9 +28,9 @@
             </div>
             <div class="col-2" id="divEspacio1"></div>
             <div class="col" id="divTitulos">
-                <h1>DISTRIBUIDORA CATALEYA</h1>
-                <h3>Todo para los embellecedores de personas</h3>
-                <nav class="navbar navbar-expand-lg bg-seccondary m-4">                
+                <h1>Distribuidora Cataleya</h1>
+                <h4 style="font-family: 'Amita', cursive;">Todo para los embellecedores de personas</h4>
+                <nav class="navbar navbar-expand-lg bg-seccondary m-4 sticky-top">                
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -28,16 +38,16 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><h6>Home</h6></a>
+                                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#rubros"><h6>Nuestros Rubros</h6></a>
+                                <a class="nav-link fw-bold" href="#rubros">Nuestros Rubros</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#QuienesSomos"><h6>Quienes Somos</h6></a>
+                                <a class="nav-link fw-bold" href="#QuienesSomos">Quienes Somos</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#Contactenos"><h6>Contáctenos</h6></a>
+                                <a class="nav-link fw-bold" href="#Contactenos">Contáctenos</a>
                                 </li>
                             </ul>
                         </div>
@@ -46,7 +56,7 @@
             </div>
         </div>
     </header>
-   <main>
+   <main class="container">
     <!--section class="container" id="Carrusel"-->
       <div
         id="carouselExample"
@@ -225,13 +235,57 @@
             <p>Conocemos a la perfección cada uno de los productos que distribuimos y podemos dar fe de la alta calidad de cada uno de ellos, porque con ellos trabajamos cotidianamente y los seleccionamos teniendo en cuenta el resultado en nuestros propios trabajos </p>
         </div>
     </section>
+    <section class="container  m-4" id="Contactenos">
+          <div class="row" id="divTitulosContactenos">
+              <img src="./image/Cataleya_Transparente.png" alt="log" class="col-1">
+              <h2 class="col">Contáctenos</h2>
+          </div>
+          <form action="" class="container" id="frmContacto">
+              <div class="row form-floating">
+                  <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
+                  <label for="Apellido" class="form-label">Apellido</label>
+              </div>
+              <div class="row form-floating my-2">
+                  <input type="text" class="form-control" name="Nombres" id="Nombres" placeholder="Ingrese sus Nombres">
+                  <label for="Nombres" class="form-label">Nombres</label>
+              </div>
+              <div class="row my-2">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>              
+              <div class="row my-2">
+                  <label for="selRubrosInteres" class="form-label">Seleccione los rubros de su interés</label>
+                  <select class="form-select" multiple aria-label="multiple select example" name="selRubrosInteres" id="selRubrosInteres">
+                    <option value="Barberia">Barbería</option>
+                    <option value="Peluqueria_femenina">Peluquería Femenina</option>
+                    <option value="Maquillaje">Maquillaje</option>
+                    <option value="Pedicuria">Pedicuría y belleza de pies</option>
+                    <option value="Cejas_Pestanias">Perfilado de cejas y tratamiento de pestañas</option>
+                    <option value="Manicuria">Manicuria y Uñas esculpidas</option>
+                    <option value="Dermatologia">Limpieza Facial y cuidado de la piel</option>
+                    <option value="Insumos_generales">Insumos de generales</option>
+                  </select>                
+              </div>
+            <div class="row form-floating">
+              <textarea class="form-control" placeholder="Detalle de la solicitud" id="comentario" name="comentario"></textarea>
+              <label for="comentario">Comentarios</label>
+            </div>              
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" role="switch" id="chkPoliticaPriv">
+                  <label class="form-check-label" for="chkPoliticaPriv"><a href="#">Acepto las políticas de Privacidad</a></label>
+              </div>
+
+              <div class="row my-2">
+                <div class="col-2">&nbsp;</div>
+                <div class="col">
+                    <input type="submit" value="Enviar" class="primary">
+                </div>                
+              </div>
+          </form>
+    </section>
    </main> 
-   <footer>
-        <section class="container" id="Contactenos">
-            <div class="row" id="divTitulosContactenos">
-                <img src="./image/Cataleya_Transparente.png" alt="log" class="col-1">
-                <h2 class="col">Contáctenos</h2>
-            </div>
+   <footer class="container">
+        <section class="container  m-4" id="Pie">
             <div class="row">
                 <div class="dropdown col">
                     <a
